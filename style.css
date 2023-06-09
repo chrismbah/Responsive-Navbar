@@ -13,6 +13,7 @@ body{
     font-family: "Poppins", sans-serif;
     background: var(--white);
 }
+/*Navigation Bar Section*/
 header{
     width: 100%;
     height: 80px;
@@ -51,6 +52,60 @@ header{
     color: var(--black);
     background: var(--white);
 }
+/*************Hero Section***********/
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px 100px ;
+    max-width: 100vw;
+    margin: auto;
+}
+.hero-text h1{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.hero-text h1 span{
+    font-weight: 700;
+}
+.hero-text h3{
+    padding: 20px 0;
+    
+}
+.hero-text p{
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    background: #16161a;
+    width: 200px;
+    color: #fefefe;
+    margin-top:10px;
+    margin-right: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.hero-text .crypto{
+    font-size: 40px;
+}
+.hero-text h4{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.hero-text p:hover{
+    background:var(--white);
+    color: var(--black);
+    border:1px solid var(--black);
+    transition: .3s;
+}
+.hero-img{
+    object-fit: contain;
+}
+.hero-img img{
+    width: auto;
+
+}
+
 @media (max-width:1320px) {
  header{
     padding: 0 50px;
